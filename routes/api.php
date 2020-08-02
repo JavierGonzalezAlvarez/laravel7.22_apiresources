@@ -28,7 +28,7 @@ use Illuminate\Support\Facades\Route;
 
 //LISTADO DEL JSON SON API RESOURCES
 //pasamos dos parametros:  la url y que apunte al fichero donde está la lógica
-Route::apiResource('/cuotas', 'TbCuotasController');
+Route::apiResource('/api_resources_cuotas', 'TbCuotasController');
 //Otra forma, desde postman
 //Route::post('/post', 'TbCuotasController@store');
 
