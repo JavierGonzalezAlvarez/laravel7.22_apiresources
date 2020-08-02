@@ -36,7 +36,7 @@ Route::apiResource('/api_resources_cuotas', 'TbCuotasController');
 Route::get('/get_index', 'TbCuotasController@index');
 
 //Para un registro del json
-Route::get('/get', 'TbCuotasController@show');
+Route::get('/get_show', 'TbCuotasController@show');
 
 //Para una colleccion del json
 Route::get('/get_colletion', 'TbCuotasController@show_colletion');
