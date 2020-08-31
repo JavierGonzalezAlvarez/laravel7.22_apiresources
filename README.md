@@ -7,7 +7,7 @@ php artisan serve
 
 Creacion de la base de datos desde mysql:
 --------------------------------------------
-create database shop_bamleys collate utf8mb4_general_ci character set utf8mb4;
+create database laravelapi collate utf8mb4_general_ci character set utf8mb4;
 
 Despues de un cambio de configuracion
 ----------------------------------------
