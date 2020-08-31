@@ -15,8 +15,16 @@
                     <li>
                         <a class="nav-link" href="{{action('TbCuotasController@create')}}">Formulario Post</a>                        
                     </li>
+                    <li>
+                        <a class="nav-link" href="{{action('TbCuotasController@show_colletion')}}">Mostrar Json desde el navegador</a>                        
+                    </li>
                     
-                    
+                    {{-- 
+                    <li>
+                        <a class="nav-link" href="{{action('TbCuotasController@show_colletion_1')}}">Mostrar Json dentro de la App</a>
+                    </li>
+                    --}}                    
+                                                            
                 </ul>                
             </div>
         </nav>                

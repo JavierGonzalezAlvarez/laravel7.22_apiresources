@@ -9,15 +9,17 @@ Creacion de la base de datos desde mysql:
 --------------------------------------------
 create database shop_bamleys collate utf8mb4_general_ci character set utf8mb4;
 
+Despues de un cambio de configuracion
+----------------------------------------
+php artisan cache:clear
+
 Migraciones
 ------------------------
-php artisan cache:clear
 php artisan migrate
 
 Roolback migraciones
 -------------------------------
 php artisan migrate:refresh
-
 
 Rutas
 ---------------

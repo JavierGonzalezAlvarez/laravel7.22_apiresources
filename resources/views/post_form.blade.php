@@ -3,16 +3,8 @@
 <div>
   <form method="POST" action="{{ action('TbCuotasController@store') }}">
     @csrf
-    <input
-      type="text"
-      name="nombre"
-      placeholder="Nombre"    
-    /></br>
-    <input
-      type="text"
-      name="usuario"
-      placeholder="Usuario"
-    /></br>
+    Nombre: <input type="text" name="nombre" placeholder="Nombre"/></br>
+    Usuario: <input type="text" name="usuario" placeholder="Usuario"/></br>
     <button type="submit">Post</button>
   </form>  
 </div>

@@ -35,6 +35,7 @@ class TbCuotasController extends Controller
         //Me permite devolver una vista en forma de formulario para crear un registro
         //en la API no lo uso        
         return view('post_form');
+
     }
 
     /**
@@ -76,6 +77,14 @@ class TbCuotasController extends Controller
         return new Recibos($cuotas);        
     }
 
+    /*
+    public function show_colletion_1(tb_cuotas $tb_cuotas)
+    {                       
+        $cuotas = tb_cuotas::get();                        
+        return new Recibos($cuotas);        
+    }
+    */
+    
     /**
      * Show the form for editing the specified resource.
      *
