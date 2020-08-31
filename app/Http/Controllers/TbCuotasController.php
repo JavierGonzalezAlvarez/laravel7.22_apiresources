@@ -12,8 +12,6 @@ use Illuminate\support\Facades\DB;
 use App\Http\Resources\ReciboResource as RecibosResource;
 use App\Http\Resources\Recibos as Recibos;
 
-
-
 class TbCuotasController extends Controller
 {
     /**
@@ -47,10 +45,10 @@ class TbCuotasController extends Controller
      */
     public function store(Request $request)
     {
-        //recibe un request, es decir recibe una solicitud, es esa
+        //recibe un request, recibe una solicitud, en esa
         //solicitud vienen todos los datos necesarios para sacar la informacion
 
-        //con este codio ingreso la API en la BD
+        //con esta linea ingreso la API en la BD, con el ORM
         $cuota = tb_cuotas::create($request->all());
         //esto devuelve el codigo
         return $cuota;    
